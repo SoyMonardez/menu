@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu de valhalla</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <header>
+            <h1>Comidas Saladas</h1>
+    </header>
+    <!-- promociones -->
+    <section class="menu" id="promociones">
+  <h3>promociones de los dioses</h3>
+  <div class="menu__grid">
+    <div class="menu__card">
+      <img src="promocion/2 yogur+granola.jpg" alt="2 yogur+granola">
+      <p>dia del amigo 2 yogur+granola</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/2infusiones+waffle_para_compartir.jpg" alt="combo desayuno para 2">
+      <p>combo desayuno para 2</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/cafe+medialuna+tostada+cafe.jpg" alt="JavaScript">
+      <p>desayuno para 2</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/dia del amigo.jpg" alt="Python">
+      <p>dia del amigo</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/jugonaranja+cafe+medialuna.jpg" alt="jugonaranja+cafe+medialuna">
+      <p>mañanera</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/2 yogur+granola.jpg" alt="2 yogur+granola">
+      <p>mañanera</p>
+    </div>
+  </div>
+</section>
+  <!-- fin promociones -->
+  <!-- combo -->
+       <section class="menu" id="Combos">
+  <h3>Combos de guerrero</h3>
+  <div class="menu__grid">
+    <div class="menu__card">
+      <img src="promocion/2 yogur+granola.jpg" alt="2 yogur+granola">
+      <p>dia del amigo 2 yogur+granola</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/2infusiones+waffle_para_compartir.jpg" alt="combo desayuno para 2">
+      <p>combo desayuno para 2</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/cafe+medialuna+tostada+cafe.jpg" alt="JavaScript">
+      <p>desayuno para 2</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/dia del amigo.jpg" alt="Python">
+      <p>dia del amigo</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/jugonaranja+cafe+medialuna.jpg" alt="jugonaranja+cafe+medialuna">
+      <p>mañanera</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/2 yogur+granola.jpg" alt="2 yogur+granola">
+      <p>mañanera</p>
+    </div>
+  </div>
+</section>
+    <!-- fin combo -->
+    <!-- precios -->
+    <section class="menu" id="precios">
+  <h3>precios nordicos</h3>
+  <div class="menu__grid">
+    <div class="menu__card">
+      <img src="promocion/2 yogur+granola.jpg" alt="2 yogur+granola">
+      <p>dia del amigo 2 yogur+granola</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/2infusiones+waffle_para_compartir.jpg" alt="combo desayuno para 2">
+      <p>combo desayuno para 2</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/cafe+medialuna+tostada+cafe.jpg" alt="JavaScript">
+      <p>desayuno para 2</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/dia del amigo.jpg" alt="Python">
+      <p>dia del amigo</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/jugonaranja+cafe+medialuna.jpg" alt="jugonaranja+cafe+medialuna">
+      <p>mañanera</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/2 yogur+granola.jpg" alt="2 yogur+granola">
+      <p>mañanera</p>
+    </div>
+        <div class="menu__card">
+      <img src="promocion/2 yogur+granola.jpg" alt="2 yogur+granola">
+      <p>dia del amigo 2 yogur+granola</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/2infusiones+waffle_para_compartir.jpg" alt="combo desayuno para 2">
+      <p>combo desayuno para 2</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/cafe+medialuna+tostada+cafe.jpg" alt="JavaScript">
+      <p>desayuno para 2</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/dia del amigo.jpg" alt="Python">
+      <p>dia del amigo</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/jugonaranja+cafe+medialuna.jpg" alt="jugonaranja+cafe+medialuna">
+      <p>mañanera</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/2 yogur+granola.jpg" alt="2 yogur+granola">
+      <p>mañanera</p>
+    </div>
+        <div class="menu__card">
+      <img src="promocion/2 yogur+granola.jpg" alt="2 yogur+granola">
+      <p>dia del amigo 2 yogur+granola</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/2infusiones+waffle_para_compartir.jpg" alt="combo desayuno para 2">
+      <p>combo desayuno para 2</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/cafe+medialuna+tostada+cafe.jpg" alt="JavaScript">
+      <p>desayuno para 2</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/dia del amigo.jpg" alt="Python">
+      <p>dia del amigo</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/jugonaranja+cafe+medialuna.jpg" alt="jugonaranja+cafe+medialuna">
+      <p>mañanera</p>
+    </div>
+    <div class="menu__card">
+      <img src="promocion/2 yogur+granola.jpg" alt="2 yogur+granola">
+      <p>mañanera</p>
+    </div>
+  </div>
+</section>
+    <!-- fin precios -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#Combos">Combos</a></li>
+            <li><a href="#promociones">Promociones</a></li>
+            <li><a href="#precios">Precios</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

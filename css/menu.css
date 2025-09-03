@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  text-align: center;
+  line-height: 1.5;
+  list-style: none;
+  text-decoration: none;
+    scroll-behavior: smooth;
+
+}
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a1a1a;
+    background-image: radial-gradient(circle, #ffffff 0%, #ffffff 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Opcional: mantiene el gradiente fijo al hacer scroll */
+}
+/*header*/
+.header {
+  background-color: #1b1b1b;
+  color: #b28b33;
+
+  text-align: center;
+  box-shadow: 0 4px 30px #141414;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 30;
+  border-bottom: 2px solid gold;
+  border-radius: 0 0 20px 20px;
+}
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  font-weight: bold;
+  background-color: transparent;
+  color: #f3b31e;
+}
+/*menu general*/
+.menu {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #2C2C2E;
+}
+
+.menu h3 {
+  font-size: 2em;
+  color: #f3b31e;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+.menu__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 600px; /* Ajusta este valor si necesitas más o menos espacio */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.menu__card {
+  background: #1C1C1E;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  transition: transform 0.3s ease;
+  min-width: 150px;
+  max-width: 150px ;
+  margin: 0 auto;
+}
+
+.menu__card:hover {
+  transform: scale(1.05);
+}
+
+.menu__card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.menu__card p {
+  color: #c0bfbf;
+  font-size: 18px;
+  margin: 0;
+  font-weight: bold;
+  background-color: transparent;
+}
+/*menu especial*/
+.menu1 {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #2C2C2E;
+}
+
+.menu1 h3 {
+  font-size: 2em;
+  color: #f3b31e;
+  margin-bottom: 20px;
+  background-color: transparent;
+  padding-top: 60px;
+  
+}
+
+.menu__grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 600px; /* Ajusta este valor si necesitas más o menos espacio */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.menu__card1 {
+  background: #1C1C1E;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  transition: transform 0.3s ease;
+  min-width: 150px;
+  max-width: 150px ;
+  margin: 0 auto;
+  
+}
+
+.menu__card1:hover {
+  transform: scale(1.05);
+}
+
+.menu__card1 img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.menu__card1 p {
+  color: #c0bfbf;
+  font-size: 18px;
+  margin: 0;
+  font-weight: bold;
+  background-color: transparent;
+}
+/*navbar*/
+.navbar {
+  background-color: #1b1b1b;
+  color: #f3b31e;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0 4px 30px #141414;
+  position: fixed;
+  width: 100%;
+  top: 90.7%;
+  left: 0;
+  z-index: 20;
+  border-top: 2px solid gold;
+  border-radius: 20px 20px 0 0;
+  padding-bottom: 100px;
+  margin-top: 30px;
+}
+
+.navbar ul {
+  margin: 0;
+  font-size: .9em;
+  font-weight: bold;
+  background-color: transparent;
+  color: #f3b31e;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-bottom: 100px;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: #f3b31e;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+#inicio,
+#Combos, 
+#precios, 
+#promociones {
+  scroll-margin-top: 60px;
+}
