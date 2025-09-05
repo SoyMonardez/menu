@@ -23,8 +23,7 @@ body {
 /*header*/
 .header {
   background-color: #1b1b1b;
-  color: #b28b33;
-
+  color: #e2e2e2;
   text-align: center;
   box-shadow: 0 4px 30px #141414;
   position: fixed;
@@ -32,7 +31,7 @@ body {
   top: 0;
   left: 0;
   z-index: 30;
-  border-bottom: 2px solid gold;
+  border-bottom: 2px solid #ffffff;
   border-radius: 0 0 20px 20px;
 }
 .header h1 {
@@ -40,7 +39,7 @@ body {
   font-size: 2.5em;
   font-weight: bold;
   background-color: transparent;
-  color: #f3b31e;
+  color: #e0e0e0;
 }
 /*menu general*/
 .menu {
@@ -51,7 +50,7 @@ body {
 
 .menu h3 {
   font-size: 2em;
-  color: #f3b31e;
+  color: #eeeeee;
   margin-bottom: 20px;
   background-color: transparent;
 }
@@ -69,7 +68,7 @@ body {
 .menu__card {
   background: #1C1C1E;
   border-radius: 15px;
-  padding: 20px;
+  padding: 10px;
   box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
   display: flex;
   flex-direction: column;
@@ -95,10 +94,17 @@ body {
 
 .menu__card p {
   color: #c0bfbf;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
   font-weight: bold;
   background-color: transparent;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  white-space: normal;        /* deja que el texto salte de línea normal */
+  overflow-wrap: normal;      /* no cortar palabras a la fuerza */
+  word-break: keep-all;       /* mantener las palabras enteras */
 }
 /*menu especial*/
 .menu1 {
@@ -109,7 +115,7 @@ body {
 
 .menu1 h3 {
   font-size: 2em;
-  color: #f3b31e;
+  color: #cfcfcf;
   margin-bottom: 20px;
   background-color: transparent;
   padding-top: 60px;
@@ -129,7 +135,7 @@ body {
 .menu__card1 {
   background: #1C1C1E;
   border-radius: 15px;
-  padding: 20px;
+  padding:  0px;
   box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
   display: flex;
   flex-direction: column;
@@ -156,15 +162,22 @@ body {
 
 .menu__card1 p {
   color: #c0bfbf;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
   font-weight: bold;
   background-color: transparent;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  white-space: normal;        /* deja que el texto salte de línea normal */
+  overflow-wrap: normal;      /* no cortar palabras a la fuerza */
+  word-break: keep-all;       /* mantener las palabras enteras */
 }
 /*navbar*/
 .navbar {
   background-color: #1b1b1b;
-  color: #f3b31e;
+  color: #dbdbdb;
   padding: 10px 0;
   text-align: center;
   box-shadow: 0 4px 30px #141414;
@@ -173,7 +186,7 @@ body {
   top: 90.7%;
   left: 0;
   z-index: 20;
-  border-top: 2px solid gold;
+  border-top: 2px solid #ffffff;
   border-radius: 20px 20px 0 0;
   padding-bottom: 100px;
   margin-top: 30px;
@@ -184,7 +197,7 @@ body {
   font-size: .9em;
   font-weight: bold;
   background-color: transparent;
-  color: #f3b31e;
+  color: #dadada;
   display: flex;
   justify-content: center;
   list-style: none;
@@ -196,7 +209,7 @@ body {
 }
 
 .navbar ul li a {
-  color: #f3b31e;
+  color: #dbdbdb;
   text-decoration: none;
 }
 
