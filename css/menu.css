@@ -3,22 +3,18 @@
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
   text-align: center;
   line-height: 1.5;
   list-style: none;
   text-decoration: none;
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 
 }
 body {
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: #1a1a1a;
-    background-image: radial-gradient(circle, #ffffff 0%, #ffffff 100%);
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* Opcional: mantiene el gradiente fijo al hacer scroll */
+  height: 100%;
+  background-color: #131313;
 }
 /*header*/
 .header {
@@ -45,7 +41,7 @@ body {
 .menu {
   text-align: center;
   padding: 40px 20px;
-  background-color: #2C2C2E;
+  background-color: transparent;
 }
 
 .menu h3 {
@@ -110,7 +106,7 @@ body {
 .menu1 {
   text-align: center;
   padding: 40px 20px;
-  background-color: #2C2C2E;
+  background-color: #transparent;
 }
 
 .menu1 h3 {
@@ -135,7 +131,7 @@ body {
 .menu__card1 {
   background: #1C1C1E;
   border-radius: 15px;
-  padding:  0px;
+  padding: 10px;
   box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
   display: flex;
   flex-direction: column;
