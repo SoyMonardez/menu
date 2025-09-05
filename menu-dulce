@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu bebidas</title>
+    <link rel="stylesheet" href="/css/menu.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Menu de Valhalla</h1>
+    </header>
+        <section class="menu1">
+    <h3>Menu Dulce</h3>
+    <div class="menu__grid1">
+    <div class="menu__card1">
+    </div>
+    <div class="menu__card1">
+        <img src="comida_dulce/felan.jpg" alt="Flan">
+        <p>Flan</p>
+        <p>16000$</p>
+    </div>
+    <div class="menu__card1">
+        <img src="comida_dulce/galletas.jpg" alt="galletas">
+        <p>galletas</p>
+        <p>17000$</p>
+    </div>
+    <div class="menu__card1">
+        <img src="comida_dulce/lemonpy.jpg" alt="lemon_pie">
+        <p>lemon pie</p>
+        <p>18000$</p>
+    </div>
+     <div class="menu__card1">
+        <img src="comida_dulce/media luna.jpg" alt="medialuna">
+        <p>Media lunas</p>
+        <p>18000$</p>
+    </div>
+     <div class="menu__card1">
+        <img src="comida_dulce/torta de chocolate.jpg" alt="Torta_chocolate">
+        <p>Torta de Chocolate</p>
+        <p>18000$</p>
+    </div>
+     <div class="menu__card1">
+        <img src="comida_dulce/torta de fresa.jpg" alt="Torta_fresa">
+        <p>Torta de Fresa</p>
+        <p>18000$</p>
+    </div>
+     <div class="menu__card1">
+        <img src="comida_dulce/tortaa.jpg" alt="torta">
+        <p>Torta</p>
+        <p>18000$</p>
+    </div>
+     <div class="menu__card1">
+        <img src="comida_dulce/waffle.jpg" alt="waffle">
+        <p>Waffle</p>
+        <p>18000$</p>
+    </div>
+    </div>
+</section>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">menu principal</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
